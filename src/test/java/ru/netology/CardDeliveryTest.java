@@ -22,7 +22,7 @@ public class CardDeliveryTest {
     @BeforeEach
     public void setUp() {
 //        Configuration.holdBrowserOpen = true;
-        Selenide.open("http://localhost:7777");
+        Selenide.open("http://localhost:9999");
     }
 
     String generateDate(int days) {
